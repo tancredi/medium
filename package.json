@@ -1,6 +1,7 @@
 {
+
     "name": "Medium",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "private": true,
 
     "author": {
@@ -13,4 +14,5 @@
         "request": "2.9.203",
         "cheerio": "0.8.3"
     }
+
 }
