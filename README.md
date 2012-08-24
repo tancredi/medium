@@ -1,5 +1,4 @@
 #Medium
-----
 
 Medium is just a little module written in coffeescript using Request and Cheerio to parse metadata from a URL.
 
@@ -8,15 +7,14 @@ Note: The test file is currently empty, although the moudule will be soon unit-t
 [![Build status][ci-image]][ci-status]
 
 ##Usage
-----
 
-Require the module
+###Require the module
 
-###Coffeescript
+####Coffeescript
 
 ``medium = require 'build/medium.js'``
 
-###Javascript
+####Javascript
 
 ``var medium = require('build/medium.js');``
 
