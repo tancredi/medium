@@ -4,7 +4,7 @@ Medium is just a little module written in coffeescript using Request and Cheerio
 
 Note: The test file is currently empty, although the moudule will be soon unit-tested
 
-[![Build status][ci-image]][ci-status]
+[![Build Status](https://secure.travis-ci.org/tancredi/medium.png?branch=master)](http://travis-ci.org/tancredi/medium)
 
 ##Usage
 
