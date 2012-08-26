@@ -12,7 +12,8 @@ Note: The test file is currently empty, although the moudule will be soon unit-t
 
 ####Usage
 
-``var medium = require('medium');
+```Javascript
+var medium = require('medium');
 
 medium.getData('http://www.google.com/', function (err, data) {
 	if (err !== null) {
@@ -20,7 +21,8 @@ medium.getData('http://www.google.com/', function (err, data) {
 	} else {
 		console.log(data);
 	}
-});``
+});
+```
 
 ###Exported functions
 
