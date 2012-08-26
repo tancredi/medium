@@ -10,13 +10,17 @@ Note: The test file is currently empty, although the moudule will be soon unit-t
 
 ``npm install medium``
 
-####Coffeescript
+####Usage
 
-``medium = require 'medium'``
+``var medium = require('medium');
 
-####Javascript
-
-``var medium = require('medium');``
+medium.getData('http://www.google.com/', function (err, data) {
+	if (err !== null) {
+		// Handle error
+	} else {
+		console.log(data);
+	}
+});``
 
 ###Exported functions
 
