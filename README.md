@@ -6,17 +6,17 @@ Note: The test file is currently empty, although the moudule will be soon unit-t
 
 [![Build Status](https://secure.travis-ci.org/tancredi/medium.png?branch=master)](http://travis-ci.org/tancredi/medium)
 
-##Usage
+###Setup
 
-###Require the module
+``npm install medium``
 
 ####Coffeescript
 
-``medium = require 'build/medium.js'``
+``medium = require 'medium'``
 
 ####Javascript
 
-``var medium = require('build/medium.js');``
+``var medium = require('medium');``
 
 ###Exported functions
 
